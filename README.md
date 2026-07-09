@@ -21,22 +21,22 @@ Collected Amazon customer reviews dataset containing product information, rating
 - Created Review Length column.
 - Created Sentiment column from ratings. 
 ### Step 3: DAX Measures Created
-- 1.	Total Reviews
+- Total Reviews
 Total Reviews = COUNT('Sheet'[Review_ID])
 
-- 2.	Average Rating
+- Average Rating
 Average Rating = AVERAGE(‘sheet’ [Rating])
 
-- 3.	Positive Reviews
+- Positive Reviews
 Positive Reviews = CALCULATE( COUNTROWS(‘sheet’), 
 ‘sheet’[Sentiment]="Positive" )
 
-- 4.	Negative Reviews
+- Negative Reviews
 Negative Reviews =
 CALCULATE(COUNTROWS(‘sheet’),
 ‘sheet’ [Sentiment]="Negative")
 
--5.	Neutral Reviews
+- Neutral Reviews
 Neutral Reviews = CALCULATE( COUNTROWS(‘sheet’),
 ‘sheet’[Sentiment]="Neutral" )
 
