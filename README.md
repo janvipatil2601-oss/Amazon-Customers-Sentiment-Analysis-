@@ -10,3 +10,6 @@
 
 ## Dataset
 -<a href="https://github.com/janvipatil2601-oss/Amazon-Customers-Sentiment-Analysis-/blob/main/Amazon_Customer_Sentiment_Synthetic_15000.xlsx">Dataset</a>
+
+## Dashboard Interaction
+-<a href="https://github.com/janvipatil2601-oss/Amazon-Customers-Sentiment-Analysis-/blob/main/Dashboard.pbix">View Dashboard</a>
