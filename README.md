@@ -7,3 +7,6 @@
 - Compare sentiment across different product categories. 
 - Analyze rating distribution and customer feedback. 
 - Track review trends over time.
+
+## Dataset
+-<a href="https://github.com/janvipatil2601-oss/Amazon-Customers-Sentiment-Analysis-/blob/main/Amazon_Customer_Sentiment_Synthetic_15000.xlsx">Dataset</a>
